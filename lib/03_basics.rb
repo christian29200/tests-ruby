@@ -19,7 +19,7 @@ def who_is_bigger(a,b,c)
 end
 
 def reverse_upcase_noLTA(a)
-    return a.upcase.reverse!.delete! 'LTA'
+    return a.upcase.reverse.delete('LTA')
 end
 
 def array_42(a)
